@@ -1,0 +1,72 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:8123641244792904796",
+      "lastPropertyId": "4:424476616004714824",
+      "name": "EncryptedProduct",
+      "properties": [
+        {
+          "id": "1:6524219257671321608",
+          "name": "id"
+        },
+        {
+          "id": "2:3653715965727779276",
+          "indexId": "1:5463837708180866748",
+          "name": "Name"
+        },
+        {
+          "id": "3:866257107975880216",
+          "indexId": "2:2549956947138004379",
+          "name": "Age"
+        },
+        {
+          "id": "4:424476616004714824",
+          "indexId": "3:5840464911654122509",
+          "name": "Email"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:8273284263919275662",
+      "lastPropertyId": "4:2094625476546958791",
+      "name": "Product",
+      "properties": [
+        {
+          "id": "1:6238157923957016116",
+          "name": "id"
+        },
+        {
+          "id": "2:4404967425554630397",
+          "indexId": "4:2631388236235779615",
+          "name": "Name"
+        },
+        {
+          "id": "3:6366630461033647919",
+          "indexId": "5:6216654577866258217",
+          "name": "Age"
+        },
+        {
+          "id": "4:2094625476546958791",
+          "indexId": "6:5799247117467977276",
+          "name": "Email"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:8273284263919275662",
+  "lastIndexId": "6:5799247117467977276",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
